@@ -1,0 +1,65 @@
+body {
+    color: gray;
+    background: white;
+ margin: 0px;
+  font-family: "chakra petch",sans-serif
+  magin-bottom: 100px;
+}
+
+header {
+    border: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    font-size:32px;
+    color: rgb(198, 90, 231)
+}
+
+   section{
+    background: rgb(198, 90, 231)
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-centent: center;
+   }
+
+.chamada-texto {
+ margin: right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+img{
+height: 200px;
+}
+
+.cateria-video{
+    display:flex;
+    overflow-x:auto;
+    gap:10p
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px
+
+}
+
+.categoria-videos img {
+   opacity: 0.5;
+
+}
+
+.categoria-videos img: hover{
+    opacity:1.0 ;
+    border:1px solid purple;
+
+}
+
+.cegoria h2 {
+   color: gray;
+
+}
